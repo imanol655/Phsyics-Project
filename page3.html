@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<title>Chemistry 101</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="page2.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"> More Definitions</a>
+    <a href="page3.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Charles Law Example</a>
+    <a href="page4.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Boyles Law Example</a>
+    <a href="page5.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Gay Lussac Example</a>
+      <a href="CombinedGas.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Combined Gas Law Example</a>
+      <a href="Avogadroslaw.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Avogadros Law Example</a>
+      <a href="IdealGas.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Ideal Gas Law Example</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Defintions</a>
+    <a href="page2.html" class="w3-bar-item w3-button w3-padding-large">Explanations of use</a>
+    <a href="page3.html" class="w3-bar-item w3-button w3-padding-large">Examples</a>
+    <a href="page4.html" class="w3-bar-item w3-button w3-padding-large">Overview</a>
+  </div>
+</div>
+
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Charles Law Example</h1>
+      <h5 class="w3-padding-32">As seen in the following image, the question gives the student the temperature and volume. You can easily deteremine that there is a before and after change. You are given volume and temperature therefore you will use Charles Law. Although you will need to rearrange the formula in order to solve for the second temperature. </h5>
+
+      <p class="w3-text-grey">V=volume and T=temperature </p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <img src="rsz_1charles.jpg" </img>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+        <!-- Fix This -->
+        <img src="rsz_charlesformula.png" </img>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Step 2</h1>
+      <h5 class="w3-padding-32">Since you need to solve for Temperature 2, you must first rearrange the formula. With simple algebra, you cancel out Volume 2 and it is moved to the opposite side.</h5>
+
+      <p class="w3-text-grey"></p>
+    </div>
+  </div>
+</div>
+    <!-- Third Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Step 3</h1>
+      <h5 class="w3-padding-32">Folllowing this, you must then perform simple math and solve the equation created. You simply do this by multiplying 15L times 28L then dividing by 298K. After this you will then retrieve temperature 2, 1.409.</h5>
+
+      <p class="w3-text-grey">Don't forget to round according to significant figure rules!</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <img src="rsz_step3.png" </img>
+    </div>
+  </div>
+</div>
+    
+   
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+ <p>Powered by Imanol</p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
